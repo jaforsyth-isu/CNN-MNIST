@@ -11,10 +11,10 @@ from train import train
 from test import test
 
 if __name__ == "__main__":
-    test_only = True
+    test_only = False
     use_cuda = True
     model_file = "MNIST_Model"
-    use_saved_model = True
+    use_saved_model = False
 
     model = MNISTModel()
 
